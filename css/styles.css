@@ -16,7 +16,7 @@ font-family: 'Patrick Hand', sans-serif;
 
 p {
   font-family: 'Patrick Hand', sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 
@@ -40,32 +40,35 @@ background-color: #192965;
   text-align: center;
   width: 100%;
   padding-top: 100px;
-  font-size: 30px;
+  font-size: 1.875rem;
+  color:white;
 }
 
 .middle-div {
   background-color: white;
-  height: 1390px;
+  height: 1133px;
   width: 100%;
   padding-top: 50px;
+  color: #3282b8;
 }
 
 .bottom-div {
   background-color: white;
-  height: 1200px;
+  height: 900px;
   width: 100%;
   text-align: center;
+  color: #3282b8;
 }
 
 .bottomh1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   padding-bottom: 50px;
 }
 
 
 .bottomh3 {
 
-font-size: 30px;
+font-size: 1.875rem;
 padding-bottom: 50px;
 margin: 0 auto;
 
@@ -81,8 +84,8 @@ margin: 0 auto;
   border-right: 0;
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 50px;
-  margin-top: 304px;
+  width: 900px;
+  margin-top: 254px;
 }
 
 .bottomul {
@@ -90,16 +93,16 @@ margin: 0 auto;
   left: 80px;
   width: 290px;
   margin: auto;
-  font-size: 30px;
+  font-size: 1.875rem;
   position: absolute;
   text-align: left;
 }
 
 .bottomtable {
 
-font-size: 20px;
+font-size: 1.25rem;
 
-  margin: 100px auto 30px;
+  margin: 50px auto 30px;
 }
 
 .beautytable {
@@ -148,19 +151,25 @@ width: 30px;
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  display: block;
-  position: static;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline;
+  position: absolute;
   margin-bottom: 50px;
+  float: left;
+  margin-left: -350px;
+
 }
 
 
+.contact {
+
+margin-top: 0;
+
+}
 
 .copy {
 
 font-family: 'Montserrat', sans-serif;
-font-size: 15px;
+font-size: .937rem;
 margin-bottom: 50px;
 
 
@@ -172,36 +181,55 @@ margin-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 70px;
   height: 450px;
   width: 550px;
 }
 
+
+
 .middleh1 {
   text-align: center;
-  padding: 50px 0;
-  font-size: 50px;
+  padding: 30px 0;
+  font-size: 3.125rem;
 }
 
 .middleh2 {
   text-align: center;
-  padding: 0;
-  font-size: 50px;
+  padding-bottom: 50px;
+  font-size: 3.125rem;
 }
 
-.middlehr {
+
+.middlehr1 {
   border: 8px dotted;
   border-left: 0;
   border-bottom: 0;
   border-right: 0;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
-  width: 50px;
+  width: 900px;
+  color: #3282b8;
+}
+
+
+
+.middlehr2 {
+  border: 8px dotted;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
+  margin-top: 130px;
+  margin-bottom: 50px;
+  width: 900px;
+  color: #3282b8;
 }
 
 .middlep {
   text-align: center;
-  font-size: 30px;
-  margin: 0;
+  font-size: 1.875rem;
+  margin-bottom: 100px;
+  margin-top: 0;
 }
 
 .middleul {
@@ -209,7 +237,7 @@ margin-bottom: 50px;
   left: 80px;
   width: 290px;
   margin: auto;
-  font-size: 30px;
+  font-size: 1.875rem;
   position: absolute;
 }
 
@@ -220,12 +248,25 @@ margin-bottom: 50px;
 
 .multitasker {
   height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  display: block;
-  position: static;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    width: 200px;
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    right: 500px;
+    left: 0;
+    top: 1665px;
+}
+
+
+
+
+
+
+.topp {
+
+
+  margin-top: 0;
 }
